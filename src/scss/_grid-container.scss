@@ -1,0 +1,14 @@
+.grid-container{
+    display: grid;
+    background:seagreen;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem 1rem;
+}
+.card{
+    background-color: seashell;
+
+    & .card__img{
+        height: 10rem;
+    }
+}

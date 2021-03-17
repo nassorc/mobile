@@ -1,0 +1,22 @@
+.search-container{
+
+}
+.search-container__form{
+    display: flex;
+    & input[type="text"]{
+        flex: 1;
+        padding: 10px 16px;
+        border: none;
+        outline: none;
+
+        &:focus{
+            border-bottom: 2px solid rgb(1,1,1);
+        }
+    }
+    & input[type="submit"]{
+        flex-shrink: 0;
+        padding: 10px 16px;
+        border: none;
+        outline: none;
+    }
+}

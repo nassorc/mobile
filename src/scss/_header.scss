@@ -1,0 +1,23 @@
+body{
+    
+}
+
+header{
+    background-color: rgb(78, 117, 235);
+    height: 3.4rem;
+}
+nav{
+    display: none;
+}
+.burger-menu{
+    margin: 16px 10px;
+    display: inline-block;
+    flex-direction: column;
+
+    & > div {
+        background-color: black;
+        margin-bottom: 2px;
+        height: 0.3rem;
+        width: 1.8rem;
+    }
+}
