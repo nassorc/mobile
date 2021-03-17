@@ -52,15 +52,18 @@ nav {
   display: flex;
 }
 .search-container__form input[type=text] {
+  -webkit-appearance: none;
   flex: 1;
   padding: 10px 16px;
   border: none;
   outline: none;
 }
 .search-container__form input[type=text]:focus {
+  -webkit-appearance: none;
   border-bottom: 2px solid #010101;
 }
 .search-container__form input[type=submit] {
+  -webkit-appearance: none;
   flex-shrink: 0;
   padding: 10px 16px;
   border: none;
@@ -80,6 +83,12 @@ nav {
 }
 .card .card__img {
   height: 10rem;
+}
+
+@media (min-width: 546px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

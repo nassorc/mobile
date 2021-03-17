@@ -4,16 +4,19 @@
 .search-container__form{
     display: flex;
     & input[type="text"]{
+        -webkit-appearance: none;
         flex: 1;
         padding: 10px 16px;
         border: none;
         outline: none;
 
         &:focus{
+            -webkit-appearance: none;
             border-bottom: 2px solid rgb(1,1,1);
         }
     }
     & input[type="submit"]{
+        -webkit-appearance: none;
         flex-shrink: 0;
         padding: 10px 16px;
         border: none;
